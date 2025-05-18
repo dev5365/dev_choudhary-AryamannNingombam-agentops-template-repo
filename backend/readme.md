@@ -14,32 +14,6 @@ This project is a voice/chatbot solution for Barbeque Nation (Delhi & Bengaluru 
 - Logs each conversation post-call/chatbot to Google Sheets  
 - Token-limited (800 tokens max) per response – information chunking handled  
 
-## Folder Structure
-
-project/
-│
-├── main.py                   # FastAPI app with conversation routes
-├── log_to_sheet.py           # Google Sheets logging logic
-├── credentials.json          # Google Sheets API credentials
-├── requirements.txt          # Python dependencies
-├── state_transition.py       # State machine logic for conversation flow
-├── jinja_render.py           # Jinja prompt rendering logic
-│
-├── state_prompts/            # Jinja prompt templates for conversation states
-│   ├── choose_action.jinja
-│   ├── collect_city.jinja
-│   ├── collect_date.jinja
-│   ├── collect_guests.jinja
-│   ├── confirm_booking.jinja
-│   ├── faq_handler.jinja
-│   ├── update_booking.jinja
-│   ├── cancel_booking.jinja
-│   └── end_conversation.jinja
-│
-└── knowledge_base/           # Structured knowledge base per city
-    ├── delhi.json
-    └── bengaluru.json
-
 
 
 
