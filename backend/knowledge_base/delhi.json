@@ -1,0 +1,14 @@
+[
+    {
+        "id": "timings_001",
+        "topic": "timings",
+        "content": "Barbeque Nation delhi operates daily from 10 PM to 11 PM. Last orders at 10:30 PM.",
+        "version": 1
+    },
+    {
+        "id": "menu_001",
+        "topic": "menu",
+        "content": "The delhi menu includes vegetarian and non-vegetarian BBQ options, desserts, and beverages.",
+        "version": 1
+    }
+]
